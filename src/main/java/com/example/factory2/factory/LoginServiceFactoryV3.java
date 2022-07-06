@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.*;
 
-@Component
+//@Component
 public class LoginServiceFactoryV3 implements LoginServiceFactory{
 
    private final List<LoginService> loginServices;
